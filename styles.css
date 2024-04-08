@@ -1,0 +1,146 @@
+html {font-size: 16px}
+
+* {
+    
+    font-weight: bold;
+}
+body {
+    margin-left: 8.03rem;
+    margin-right: 8.03rem;
+    overflow-x: hidden;
+    
+
+}
+.page {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.table {
+   background-image: url(./Table.png); 
+   height: 66.26rem;
+   width: 80%;
+   background-size: cover;
+   margin-top: 1.65rem;
+   width: 59.15rem;
+
+   
+}
+.section-3 {
+    position: relative;
+}
+table {
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding-top: 23.75rem;
+    padding-left: 1.195rem;;
+    z-index: 100;
+    
+}
+
+tr {
+    color:white;
+    width: 1rem;
+    height: 1rem;
+}
+
+
+td {
+    width: 1rem;
+    height: 1rem;
+}
+
+.property {
+    display:flex;
+    font-size: 1.125rem;
+}
+.property-title {
+    color:rgba(238, 118, 1, 1) ;
+}
+.property img{
+    height: 16.5rem;
+    width: 16.5rem;
+}
+.property-description {
+    padding-right: 4.25rem;
+}
+/* Style - regular
+Font - comic_sans_ms
+Font - grotesk
+Font - verdana */
+/* Style - bold
+Font - calibri
+Font - tahoma
+Font - verdana */
+.td-box {
+    background-color:rgba(238, 118, 1, 1);
+    height: 3.07rem;
+    border-radius: 10px;
+    margin: 0.31rem;
+    width: 27.57rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+.td-title {
+    text-align: left;
+    color:rgba(238, 118, 1, 1) ;
+    font-size: 1.25rem;
+}
+tr:nth-child(odd) {
+    margin-right:0px;
+}
+
+tr:nth-child(even) {
+        margin-left:0px;
+}
+
+.main {
+    position: relative;
+}
+ .main-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    padding-top: 4.734vh;
+    padding-left: 18.543vw;
+    font-size: 2.083vw;
+    text-align: center;
+ }
+ .main-title div {
+    font-size: 2.604vw;
+ }
+.advantage1,.advantage2, .advantage3, .advantage4 {
+    position:absolute;
+    top: 0;
+    left: 0;
+    color:white;
+    font-size:2.5rem; ;
+}
+.advantage1 {
+    padding-top: 42.52rem;
+    padding-left: 5.25rem;
+}
+.advantage2 {
+    padding-top: 42.52rem;
+    padding-left: 36.28rem;
+}
+.advantage3 {
+    padding-top: 53.76rem;
+    padding-left: 10.05rem;
+}
+.advantage4 {
+    padding-top: 53.76rem;
+    padding-left:42.9rem;
+}
+.advantage1 div,.advantage2 div,.advantage3 div,.advantage4 div{
+   font-size:  1.31rem;
+}
+.th-title {
+    opacity: 0.7;
+    color: white;
+}
+.wrapper {
+    margin-left: 12rem;
+}
